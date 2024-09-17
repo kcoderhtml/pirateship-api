@@ -71,16 +71,52 @@ export interface Location {
 }
 
 export interface ShippingOptions {
+    /**
+     * Zip code of the origin.
+     */
     originZip: string
+    /**
+     * City of the origin.
+     */
     originCity: string
+    /**
+     * State code of the origin.
+     */
     originRegionCode: string
+    /**
+     * Whether the origin is a residential address.
+     */
     isResidential: boolean
+    /**
+     * Zip code of the destination. Only required for US shipping.
+     */
     destinationZip: string
+    /**
+     * Country code of the destination. seems to follow https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
+     */
     destinationCountryCode: string
+    /**
+     * Array of mail class keys.
+     */
     mailClassKeys: string[]
+    /**
+     * Array of package type keys.
+     */
     packageTypeKeys: string[]
+    /**
+     * Weight of the package in ounces
+     */
     weight: number
+    /**
+     * Length of the package in inches
+     */
     dimensionX: number
+    /**
+     * Width of the package in inches
+     */
     dimensionY: number
+    /**
+     * Whether to show UPS rates when 2x7 is selected.
+     */
     showUpsRatesWhen2x7Selected: boolean
 }
