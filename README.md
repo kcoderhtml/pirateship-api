@@ -1,5 +1,7 @@
 # Pirateship API
 
+<img align="right" width="50" height="50" src="https://cdn.prod.website-files.com/6373a03c7d7cb73ba2df4f8e/63cebd814ad20b37f1293666_ARRrrrmoji%20Template%20168.png">
+
 An unoffical typed wrapper for the PirateShip API.
 
 ## Installation
