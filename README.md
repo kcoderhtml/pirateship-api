@@ -1,4 +1,4 @@
-# Pirateship API ![NPM License]
+# Pirateship API
 
 [![License](https://img.shields.io/npm/l/pirateship-api)](https://github.com/kcoderhtml/pirateship-api/blob/main/LICENSE)
 [![NPM Version](https://img.shields.io/npm/v/pirateship-api)](https://www.npmjs.com/package/pirateship-api)
